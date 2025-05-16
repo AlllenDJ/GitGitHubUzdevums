@@ -1,15 +1,15 @@
-// Alen.h
-#ifndef ALEN_H
-#define ALEN_H
+// Alens.h
+#ifndef ALENS_H
+#define ALENS_H
 
 #include <iostream>
 #include "Name.h"
 using namespace std;
 
-class Alen : public Name
+class Alens : public Name
 {
     public:
-        Alen(string = "DefaultAlen");
+        Alens(string = "DefaultAlens");
         virtual void setName(string);
         void Print() const;
 

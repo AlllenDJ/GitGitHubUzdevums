@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Name.h"
 #include "Andrejs.h"
-#include "Alen.h" //-> added this
+#include "Alens.h" //-> added this
 using namespace std;
 
 int main()
@@ -14,8 +14,8 @@ int main()
 	
 	Names[0] = &a;
 
-	Alen al;
-    al.setName("Alen");
+	Alens al;
+    al.setName("Alens");
     Names[1] = &al;
 	
 	for (int i=0; i<array_size; i++)
